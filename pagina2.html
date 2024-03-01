@@ -1,0 +1,191 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>¿Qué tanto me conoces?</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css" integrity="sha512-DTOQO9RWCH3ppGqcWaEA1BIZOC6xxalwEsw9c2QQeAIftl+Vegovlnee1c9QX4TctnWMn13TZye+giMm8e2LwA==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+</head>
+<body>
+    <table border="0" width="100%" cellspacing="0" >
+        <tr height="100px" bgcolor="9500BD">
+            <td align="center" colspan="2"><b><font color="white"><H1>Formulario </H1></font></b></td>
+        </tr>
+        <tr height="1px" >
+            <td colspan="2" align="right"><h3><a href="index.html"> <i class="fa-solid fa-house"></i> </a> </h3></td>
+        </tr>
+        <tr height="1px" >
+            <form>
+                <td colspan="2" align="center" >
+                    <p align="center"><h2>¿Qué tanto me conoces?</h2></p>
+                </td>
+            </form>
+        </tr>
+        <tr>
+            <form>
+                <td>
+                    <fieldset>
+                        <legend> Tus datos: </legend>
+                        <label for ="nombre usuario">Nombre usuario:</label>
+                        <input type="text" name="nombre usuario" placeholder="Ingresa tu nombre"><br>
+                        <label for ="parentesco">Parentesco:</label>
+                        <input type="text" name="parentesco" placeholder="Tu parentesco hacia mi"><br>
+                    </fieldset>
+                </td>
+                <td width="70%">
+                </td>
+            </form>
+        </tr>
+        <tr>
+            <form>
+                <td width="50%">
+                    <fieldset>
+                        <legend> Sobre mi: </legend>
+                        <ul color="blue">
+                            <li>
+                                <label for ="nombre">¿Cuál es mi nombre?:</label>
+                                <input type="text" name="nombre"><br><br>
+                            </li>
+                            <li>
+                                <label for ="apellido">¿Cuál es mi apellido?:</label>
+                                <input type="text" name="apelido"><br><br>
+                            </li>
+                            <li>
+                                <label for ="nombrep">¿Cuál es el nombre de mi papá?:</label>
+                                <input type="text" name="nombrep"><br><br>
+                            </li>
+                            <li>
+                                <label for ="nombrem">¿Cuál es el nombre de mi mamá?:</label>
+                                <input type="text" name="nombrem"><br><br>
+                            </li>
+                            <li>
+                                <label for ="fechacumple">¿En qué fecha naci?:</label>
+                                <input type="date" name="fechacumple"><br><br>
+                            </li>
+                            <li>
+                                <label for="años">¿Cuántos años tengo ahora?</label> <br>
+                                <input type="radio" name="18" id="años">18<br>
+                                <input type="radio" name="17" id="años">17<br>
+                                <input type="radio" name="21" id="años">21<br>
+                                <input type="radio" name="45" id="años">45<br>
+                            </li>
+                            <li>
+                                <label for="estado">Mi estado de animo:</label><br>
+                                <input type="Range" value="50" min="0" max="100" low="49" high="90" id="estado"><br><br>
+                            </li>
+                            <li>
+                                <label for="deporte">Selecciona mi deporte favorito:</label><br>
+                                <input type="radio" name="Fútbol" id="deporte">Fútbol<br>
+                                <input type="radio" name="Voleiball" id="deporte">Voleiball<br>
+                                <input type="radio" name="Basketball" id="deporte">Basketball<br>
+                                <input type="radio" name="MTB" id="deporte">MTB<br><br>
+                            </li>
+                            <li>
+                                <label for="Personaje">Seleciona mi personaje favorito:</label><br>
+                                <input list="Personajes" name="Personaje">
+                                <datalist id="Personajes">
+                                    <option label="Neko ARK" value="Neko ARK"></option>
+                                    <option label="Yoshi" value="Yoshi"></option>
+                                    <option label="Kirby" value="Kirby"></option>
+                                    <option label="Goku" value="Goku"></option>
+                                    <option label="Mickey" value="Mickey"></option>
+                                </datalist><br><br>
+                            </li>
+                            <li>
+                                <label for="lugares">Lugares que me gustaria vicitar:</label><br>
+                                <input type="checkbox" id="lugares" name="Rusia"><label for="Rusia">Rusia</label><br>
+                                <input type="checkbox" id="lugares" name="Chile"><label for="Chile">Chile</label><br>
+                                <input type="checkbox" id="lugares" name="Perú"><label for="Perú">Perú</label><br>
+                                <input type="checkbox" id="lugares" name="Japón"><label for="Japón">Japón</label><br>
+                                <input type="checkbox" id="lugares" name="Canada"><label for="Canada">Canada</label><br><br>
+                            </li>
+                        </ul>
+                    </fieldset>
+                </td>
+                <td>
+                    <fieldset>
+                        <legend> Mis aspiraciones: </legend>
+                        <ul>
+                            <li color="blue">
+                                <label for="añosc" id="añosc">¿Cuándo espero casarme?:"</label> <br>
+                                <input type="radio" name="22" id="añosc">22<br>
+                                <input type="radio" name="30" id="añosc">30<br>
+                                <input type="radio" name="21" id="añosc">21<br>
+                                <input type="radio" name="25" id="añosc">25<br>
+                            </li>
+                            <li>
+                                <label for="pasciencia">Mi pasciencia:</label><br>
+                                <input type="Range" value="30" min="0" max="100" low="49" high="90"><br><br>
+                            </li>
+                            <li>
+                                <label for="lugares">Lugares que me gustaria vicitar:</label><br>
+                                <input type="checkbox" id="lugares" name="Rusia"><label for="Rusia">Rusia</label><br>
+                                <input type="checkbox" id="lugares" name="Chile"><label for="Chile">Chile</label><br>
+                                <input type="checkbox" id="lugares" name="Perú"><label for="Perú">Perú</label><br>
+                                <input type="checkbox" id="lugares" name="Japón"><label for="Japón">Japón</label><br>
+                                <input type="checkbox" id="lugares" name="Canada"><label for="Canada">Canada</label><br><br>
+                            </li>
+                            <li>
+                                <label for="estudioo">¿Dónde espero estudiar?:"</label> <br>
+                                <input type="radio" name="Tegucigalpa" id="estudioo">Tegucigalpa
+                                <input type="radio" name="Comayagua" id="estudioo">Comayagua<br>
+                            </li>
+                            <li>
+                                <label for="carrera">Selecciona la carrera que voy a sacar:</label><br>
+                                <input type="radio" name="Ing.Sistemas" id="carrera">Ing.Sistemas<br>
+                                <input type="radio" name="Ing.Civil" id="carrera">Ing.Civil<br>
+                                <input type="radio" name="Música" id="carrera">Música<br>
+                                <input type="radio" name="Arquitectura" id="carrera">Arquitectura<br><br>
+                            </li>
+                            <li>
+                                <label for ="nombreh">¿Cuál será el nombre de mi futuro hijo?:</label>
+                                <input type="text" name="nombreh"><br><br>
+                            </li>
+                            <li>
+                                <label for="carro">Seleciona mi futuro carro:</label><br>
+                                <input list="carro" name="carro">
+                                <datalist id="carro">
+                                    <option label="Toyota Supra" value="Toyota Supra"></option>
+                                    <option label="Porche 911" value="Porche 911"></option>
+                                    <option label="Honda Civic" value="Honda Civic"></option>
+                                    <option label="Mazda" value="Mazda"></option>
+                                    <option label="Miata 1990" value="Miata 1990"></option>
+                                </datalist><br><br>
+                            </li>
+                            <li>
+                                <label for ="fechaU">¿Año en que entraré a la Universidad?:</label>
+                                <input type="text" name="fechaU" maxlength="4" pattern="[0-9]{4}"><br><br>
+                            </li>
+                            <li>
+                                <label for="mascota">Selecciona la mascota que tendré:</label><br>
+                                <input type="radio" name="Perros" id="mascota">Perros
+                                <input type="radio" name="Gatos" id="mascota">Gatos
+                                <input type="radio" name="Perros y gatos" id="mascota">Perros y gatos
+                            </li>
+                            <li>
+                                <label for ="archivo">¿Foto de mi posible futura casa?:</label>
+                                <input type="file" name="archivo" id="archivo" accept="Imagen//*"><br><br>
+                            </li>
+                        </ul>
+                    </fieldset>
+                </td>
+                <input type="reset" value="Reset">
+                <input type="submit" width="20px" height="10px">
+            </form>
+        </tr>
+    </table>
+    <center>
+        <table bgcolor="C500FF">
+            <tr>
+                <td>
+                    <form>
+                        <input type="reset" value="Reset">
+                        <input type="submit" width="20px" height="10px">
+                    </form>
+                </td>
+            </tr>
+        </table>
+    </center>
+</body>
+</html>
